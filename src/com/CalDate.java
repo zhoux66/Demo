@@ -8,6 +8,10 @@ import java.util.Scanner;
  */
 
 public class CalDate {
+	public CalDate(){
+		System.out.println("随便改改构造方法!");
+	}
+	
 	 public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		int year,month,day;
